@@ -149,12 +149,7 @@ for (i=0;i<100;i++)
          }
 
 
-         else
-         {   printf("\n");
-             printf("\n");
-             printf("You have entered wrong choice \n");
-             printf("Enter correct choice \n");
-         }
+         
 }
 
 
