@@ -1,0 +1,162 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+void main()
+
+{
+   int covid_cases = 173790 , Discharged_people = 284601 , n , i , name;
+
+printf("\n");
+printf("\n");
+printf("Welcome to World of peace : \n");
+printf("A program designed to give covid-19 awareness , Motivation for covid-19 and for stress relief \n ");
+printf("\n");
+printf("\n");
+
+for (i=0;i<100;i++)
+{
+
+    printf("\n");
+    printf("\n");
+
+   printf("***** WORLD OF PEACE ***** \n");
+   printf("1. Covid-19 cases today \n");
+   printf("2. Covid-19 precautions: \n");
+   printf("3. Covid-19 Symptoms \n");
+   printf("4. Top five states affected by covid-19 \n");
+   printf("5. Motivation for covid-19 and stress relief \n");
+   printf("6. Covid-19 helpline number for india \n");
+   printf("7. Exit \n ");
+
+   printf("\n");
+   printf("\n");
+
+   printf("\n");
+   printf("\n Enter your choice");
+   scanf("%d",&n);
+
+   if (n==1)
+    {   printf("\n");
+        printf("\n");
+        printf("Covid-19 cases in india today : \n %d",covid_cases );
+    printf( "\n Recovered covid-19 patients in india today : %d \n", Discharged_people);
+     if (Discharged_people>covid_cases)
+     {printf("\n");
+        printf("\n The rate of people recovering from covid-19 is more than the covid-19 cases admitted today");
+        printf("\n This is a positive sign of India recovering from covid-19");}
+     else
+        {printf("\n The covid-19 cases are increaing than the recovery rate");
+        printf("\n But , there is no need to panic by seeing the covid-19 cases");
+        printf("\n Follow these things:");
+        printf("\n 1. WEAR MASK");
+        printf("\n 2. SANITISE YOUR HANDS");
+        printf("\n 3. TAKE YOUR VACCINES");
+        printf("\n 4. STAY HOME STAY SAFE");
+        printf("\n We will recover soon..............");}}
+
+
+        if (n==2)
+        {   printf("\n");
+            printf("\n");
+            printf("If COVID-19 is spreading in your community, stay safe by taking some simple precautions* such as \n physical distancing*\n wearing a mask*\n keeping rooms well ventilated\n* avoiding crowds\n* cleaning your hands\n* and coughing into a bent elbow or tissue. \n *Check local advice where you live and work.");
+            printf("\n");
+            printf("\n SOCIAL DISTANCING :");
+            printf("\n");
+            printf(" \t \n *Maintain at least a 1-metre distance between yourself and others to reduce your risk of infection when they cough, sneeze or speak.\n *Maintain an even greater distance between yourself and others when indoors. \n *The further away, the better.");
+            printf("\n");
+            printf("\n WEARING MASK :");
+            printf("\n");
+            printf("\t \n *Make wearing a mask a normal part of being around other people.\n *The appropriate use, storage and cleaning or disposal are essential to make masks as effective as possible.\n");
+            printf("\n");
+            printf("\n HAND SANITISING :");
+            printf("\n");
+            printf("\n *Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water. \n *This eliminates germs including viruses that may be on your hands.");
+            printf("\n");
+            printf("*Avoid touching your eyes, nose and mouth.\n *Hands touch many surfaces and can pick up viruses.\n *Once contaminated, hands can transfer the virus to your eyes, nose or mouth. From there, the virus can enter your body and infect you.");
+            printf("\n");
+            printf("\n *Cover your mouth and nose with your bent elbow or tissue when you cough or sneeze.\n  *Then dispose of the used tissue immediately into a closed bin and wash your hands.\n *By following good ‘respiratory hygiene’, you protect the people around you from viruses, which cause colds, flu and COVID-19.\n");
+            printf("\n");
+            printf("\n VACCINATION :");
+            printf("\n");
+            printf("\n *Vaccines prevents us from covid-19 \n * So take your vaccines on time.");
+            printf("\n");
+             }
+
+
+        if (n==3)
+        {   printf("\n");
+            printf("\n");
+            printf("COVID-19 affects different people in different ways. \n Most infected people will develop mild to moderate illness and recover without hospitalization.");
+            printf("\n");
+            printf("Most common symptoms:\n *fever \n *dry cough \n *tiredness");
+            printf("\n");
+            printf("Less common symptoms:\n *aches and pains \n *sore throat \n *diarrhoea \n *conjunctivitis \n *headache \n*loss of taste or smell a rash on skin, or discolouration of fingers or toes");
+            printf("\n");
+            printf("Serious symptoms:\n *difficulty breathing or shortness of breath\n *chest pain or pressure \n *loss of speech or movement");
+            printf("\n");
+            printf("#Seek immediate medical attention if you have serious symptoms.\n  #Always call before visiting your doctor or health facility.");
+            printf("\n");
+            printf("#People with mild symptoms who are otherwise healthy should manage their symptoms at home.");
+            printf("\n");
+            printf("#On average it takes 5–6 days from when someone is infected with the virus for symptoms to show, however it can take up to 14 days.");
+            printf("\n");
+        }
+
+        if(n==4)
+        {   printf("\n");
+            printf("\n");
+            printf("The top five states affected by covid-19 are :\n");
+            printf("\n");
+            printf("1.Maharastra\n 2.Kerala \n 3.Karnataka \n 4. Uttar Pradesh \n 5. Tamilnadu \n");
+        }
+
+
+        if (n==5)
+        {   printf("\n");
+            printf("\n");
+            printf("*It is normal to feel sad, stressed, confused, scared or angry during a crisis. \n");
+            printf("\n");
+            printf ("*Talking to people you trust can help. \n *Contact your friends and family.\n");
+            printf("\n");
+            printf("*Get the facts.\n *Gather information that will help you accurately determine your risk so that you can take reasonable precautions.\n Find a credible source you can trust such as WHO website or, a local or state public health agency. \n");
+            printf("\n");
+            printf("*Limit worry and agitation by lessening the time you and your family spend watching or listening to media coverage that you perceive as upsetting \n");
+            printf("\n");
+            printf("*Draw on skills you have used in the past that have helped you to manage previous life’s adversities and use those skills to help you manage your emotions during the challenging time of this outbreak. \n");
+            printf("\n");
+        }
+
+        if(n==6)
+        {   printf("\n");
+            printf("\n");
+            printf("For any covid 19 related doubts and queries \n");
+            printf("\n");
+            printf("Help line number for covid-19 in India : \n");
+            printf("\n");
+            printf("+91-11-23978046");
+
+        }
+
+
+
+
+
+         if (n==7)
+         {   printf("\n");
+             printf("\n");
+             printf("You have choosen to exit the world of peace");
+             break;
+         }
+
+
+         else
+         {   printf("\n");
+             printf("\n");
+             printf("You have entered wrong choice \n");
+             printf("Enter correct choice \n");
+         }
+}
+
+
+
+}
